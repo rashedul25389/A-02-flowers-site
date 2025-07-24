@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers Site</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- Tailwind Css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="max-w-[1140px] mx-auto mb-[120px]">
+        <nav class="navbar">
+            <div class="navbar-content flex justify-between items-center my-[30px]">
+                <div class="navbar-brand">
+                    <a href="#" class="navbar-logo w-full"><img src="./images/logo.png" alt="Logo"></a>
+                </div>
+                <div class="navbar-menu items-center flex  gap-[48px]">
+                    <div class="navbar-nav max-sm:hidden max-md:hidden">
+                        <ul class="m-auto flex items-center gap-[48px]">
+                            <li class="navbar-item items-center p-[15px] hover:text-[#252432] active text-[#252432] font-bold">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="navbar-item flex items-center p-[15px] hover:text-[#252432]">
+                                <a href="#" class="nav-link">Shop</a>
+                            </li>
+                            <li class="navbar-item flex items-center p-[15px] hover:text-[#252432]">
+                                <a href="#" class="nav-link">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart-menu hover:text-[#252432]">
+                        <a href=""><i class="fa-solid fa-cart-shopping mr-[10px]"></i></a>
+                        <span>Cart ($56)</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+    <main>
+        <!-- Banner Section Start -->
+         <section class="max-w-[1140px] mx-auto mb-[120px] max-sm:mt-[28px]">
+            <div class="hero-area  h-[461px] flex items-end max-sm:flex-col-reverse max-md:flex-col-reverse">
+                <div class="max-w-[570px] h-[299px] max-sm:w-full max-md:w-full">
+                    <h1 class="text-[65px] font-[700] mb-[15px] max-sm:text-[50px] max-md:text-[50px]">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+                </div>
+                <div class="hero-img max-w-[570px] max-sm:mb-[28px] max-md:mb-[28px]">
+                    <img class="w-full max-sm:w-full max-sm:h-[245px] max-md:w-full max-md:h-[260px]" src="./images/hero-flower.png" alt="">
+                </div>
+            </div>
+         </section>
+        <!-- Banner Section End -->
+
+    </main>
+    <!-- Main Section End -->
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>
