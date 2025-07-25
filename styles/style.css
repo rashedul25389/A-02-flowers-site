@@ -25,8 +25,23 @@ body{
 }
 h1, h2, h3, h4{
     font-family: "Noto Serif", serif;
-    font-size: 50px;
     font-weight: 700;
     color: #000000;
 
 }
+.bunch-message h1{
+  color: #FFFFFF;
+}
+
+/* .bloom::before{
+    content: '';
+    background: linear-gradient(180deg, #000000 40%, rgba(0, 0, 0, 0.40) 100%);
+    position: absolute;
+    transform: rotate(-180deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+} */
